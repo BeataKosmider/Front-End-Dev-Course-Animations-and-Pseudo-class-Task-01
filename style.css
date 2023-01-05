@@ -1,0 +1,28 @@
+div {
+  width: 94%;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #ffdac4;
+  position: relative;
+}
+button {
+  background-color: #24ad98;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  position: absolute;
+  padding: 20px 40px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  div {
+    width: 640px;
+  }
+  button {
+    width: auto;
+  }
+  button:hover {
+    background-color: #ffffff;
+    color: #24ad98;
+  }
+}
